@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <div id="box1">
+            <img src="/project1/2022-01-31.jpg">
+        </div>
+        <div id="box2">
+            <div id="logo">
+                <img src="/project1/large_KIET_Group_of_Institutions_Ghaziabad_KIET_Ghaziabad_243fa07822_35ecc83705.png" alt="">
+            </div>
+            <hr>
+            <hr>
+            <div id="form">
+                <h1>Form</h1>
+                <form >
+                    <label for="firstname">firstname: </label><br>
+                    <input type="text" id="firstname"name="firstname"  pattern="^[\p{L}\p{M} \-\.',]*$" ><br>
+                    <label for="lastname">lastname: </label><br>
+                    <input type="text" id="lastname"name="lastname" pattern="^[\p{L}\p{M} \-\.',]*$"required><br>
+                    <P>select your gender:</P>
+                    <input type="radio" id="male"name="gender">
+                    <label for="male">male    </label>
+                    <input type="radio" id="female"name="gender">
+                    <label for="female">female</label><br>
+                    <label for="location">where do you live :</label><br>
+                    <select name="location" id="location">
+                        <option value="pg">PG</option>
+                        <option value="hostelers">HOSTELERS</option>
+                        <option value="home"selected >HOME</option>
+                    </select><br>
+                    <label for="gmail">gmail: </label><br>
+                    <input type="gmail" id="gmail" value="" name="" pattern="^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$"><br>
+                    <label for="password">password: </label><br>
+                    <input type="password" id ="password" name="password" value=""><br>
+                    <input type="password"id ="confpassword" name="confpassword" value=""placeholder="conferm password"><br>
+                    <p><u>please fill your address details</u> :</p>
+                    <label for="village">village:      </label>
+                    <input type="text"id ="village" name = "village" value="village"><br>
+                    <label for="district">district:     </label>
+                    <input type="text"id ="district" name = "district" value="district"><br>
+                    <label for="state">  state:          </label>
+                    <input type="text"id ="state" name = "state" value="state"><br>
+                    <label for="phone"> phone no:         </label>
+                    <input type="tel" id="phone" name="phone_no" maxlength="10" value="123"title =" phone no. should be 10 digits" pattern="[1-9]{1}[0-9]{9}"required ><br>
+                    <input type="submit" id="submit" value="submit">
+                   <!--- <div class="box"><input type="text"placeholder="name"></div>>
+
+                -->
+
+
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

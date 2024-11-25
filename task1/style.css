@@ -1,0 +1,169 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: 0%;
+  
+}
+#box1{
+    width: 50%;
+    height: 100%;
+    /* border:1px solid black; */
+}
+#box1 img{
+    overflow: 0%;
+    object-fit: 100%;
+    height: 100%;
+    width: 100%;
+}
+#box2{
+    width: 50%;
+    height: 100%;
+    border:1px solid black;
+    background-color: rgb(206, 212, 212);
+ 
+}
+#logo{
+    width: 150px;
+    height: 150px;
+    /* border: 1px solid black ; */
+margin-left: 40%;
+    align-items: center;
+    margin-bottom: 5px;
+}
+#logo img{
+    overflow: 0%;
+    object-fit: 100%;
+    height: 100%;
+    width: 100%;
+}
+#form{
+    font-size: 14px;
+    background-color:white;
+    width : 700px ;
+    height : 700px ;
+    padding: 30px;
+    margin: 50px auto 0;
+    border-top: 5px solid black;
+    box-shadow: 0 0 7px  5px rgba(0, 0,0, 0.5);
+
+}
+#form h1{
+    font-size: 24px;
+    line-height: 24px;  
+    padding: 30px;
+    text-align: center;
+}
+.input-name{
+    width: 90%;
+    position: relative;
+    margin: 20px ;
+    
+
+}
+.lock{
+    padding: 8px 11px;
+}
+.name{
+    width: 45%;
+    padding: 8px 0 8px 40px;
+    height: 45px;
+}
+.input-name span{
+    margin-left: 35px;
+}
+.text-name{
+    width: 100%;
+    padding: 8px 0 8px 40px;
+    height: 45px;
+}
+.input-name i{
+    position: absolute;
+    font-size: 27px;
+    border-right: 1px solid #cccccc;
+    margin-top: 4px;
+    margin-left: 4px;
+    padding: 3px;
+}
+.text-name , .name{
+    border: 1px solid #cccccc;
+    outline: none;
+    -moz-transform: all 0.30s ease-in-out;
+    -webkit-transform: all 0.30s ease-in-out;
+
+}
+.text-name:hover , .name:hover{
+background-color: #fafafa;
+}
+.text-name:focus , .name:focus{
+border: 1px solid black;
+}
+.home{
+    width: 100%;
+    height: 45px;
+    padding: 0 15px;
+    cursor: pointer;
+    border: 1px solid #cccccc;
+    background-color: white;
+    display:inline-block  ;
+    color: #7b7b7b;
+}
+.home:hover ,.home:focus{
+    color: black;
+    background-color:#fafafa;
+    border-color: black;
+}
+p{
+    font-size: 10px;
+    display: inline-block;
+    
+}
+.mobile{
+    width: 100%;
+    height: 45px;
+    padding: 0 15px;
+    border: 1px solid #cccccc;
+    background-color: white;
+    display:inline-block  ;
+
+}
+.button{
+    width: 100%;
+    height: 45px;
+    background-color: rgb(55, 55, 214);
+    line-height: 35px;
+    color: white;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(88, 88, 179);
+
+}
+.students{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border : 1px solid gray ;
+    background-color: #ebebeb;
+    color: #2f2f2f;
+    border-radius: 15px ;
+    ;
+}
+.students div{
+    width: 100% ;
+    padding: 10px;
+    text-align: center;
+}
+.students div *{
+    margin: 5px;
+}

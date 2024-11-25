@@ -1,0 +1,520 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100% ; 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background-color:#e4e9ed;
+   
+  font-family:  sans-serif,Arial, Helvetica;
+    
+}
+#box1{
+  
+    width: 90%;
+    height: 90%;
+    background-color: #f5f7f6;
+
+}
+
+.class{
+    display: flex;
+    height: 10%;  
+}
+#box2{
+ 
+    /* margin-left: 20px; */
+    width: auto;
+    margin: 20px;
+    /* float: left; */
+    display: flex;
+    left: 50px;
+}
+.box3 {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+    display: flex;
+    margin-left: 8px;
+
+}
+#MR{
+  margin-left: 60px;
+  background-color: #f7df1d;
+  width: 30px;
+  height: 30px;
+  
+}
+#MR p{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#more p{
+  color: #000000;
+  padding: 5px;
+  
+}
+#more{
+  justify-content: center;
+
+}
+#more1 p{
+padding-right: 10px;
+}
+
+
+#submit{
+  border:1px solid black;
+  opacity: 0.5;
+  margin-left: 50px;
+  border-radius: 5px;
+
+  height:20px;
+  text-align: center;
+}
+#submit p{
+  text-align: center;
+}
+
+h4{
+    text-align: center;
+    padding-top: 40px;
+    font-size:50px;
+    padding-bottom: 20px;
+}
+p{
+    text-align: center;
+    opacity: 0.5;
+}
+#boxx2{
+  /* float: right; */
+ margin-left: 700px; 
+ margin-top: 20px;
+ display: flex;
+ align-items: center;
+ 
+}
+#gmail{
+  width: 30px;
+  height: 30px;
+border-radius: 100px;
+box-shadow: 10px 10px 5px rgb(170, 171, 172);
+align-items: center;
+}
+#gmail img{
+  width: 100%;
+  height: 100%;
+  object-fit: 100%;
+  overflow: 0%;
+  border-radius: 100px;
+
+}
+
+
+#facebook{
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  box-shadow: 10px 10px 5px rgb(183, 186, 187);
+}
+#facebook img{
+  width: 100%;
+  height: 100%;
+  object-fit: 100%;
+  overflow: 0%;
+}
+
+
+#search {
+  margin-top: 5px;
+    width: 40%;
+    border: 3px solid #fcfdfb;
+    padding: 10px;
+    background-color: #fcfdfb;
+    display: flex;
+    margin-left: 30%;
+  
+  }
+  #vectors{
+    padding: 5px;
+    border:1px groove black;
+    border-radius: 5px;
+    width: 10%;
+
+
+  }
+  #vectors p{
+    text-align: center;
+  }
+  #content{
+    padding-left: 10px;
+    padding-top: 3px;
+    opacity: 0.4;
+    width: 30%;
+   margin: auto;
+  }
+  #search1{
+    width: 30px;
+    height: 30px;
+    align-items: end;
+  }
+  #search1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: 100%;
+    overflow: hidden;
+  }
+  .box6{
+    margin: auto;
+    width: 90%;
+    height: 30px;
+    margin-top: 30px;
+  display: flex;
+  padding: 14px 16px;   
+
+  }
+  #mboxdot{
+    margin-left: 80px;
+  }
+  #orange{
+    color: orange;
+  }
+  #blue{
+    color: rgb(79, 101, 244);
+  }
+  #icon1{
+        margin-left: 53%;
+  }
+ 
+  .mbox6{
+    margin-right: 25px;
+    padding-bottom: 10px;
+
+  }
+  #mboxdot{
+    display: flex;
+  }
+  #mbodot P{
+    /* display: flex; */
+    float: left;
+  }
+  
+  #dot{
+
+     width: 5px;
+    height: 5px; 
+    border-radius: 100%;
+    background-color: red;
+    justify-content: top;
+  }
+  .mbox{
+    
+    margin: 10px;
+float: left;
+text-align: center;
+padding: 14px 16px;
+font-size: 17px;
+ margin-left: 8px 
+
+
+  }
+  .mboxp{
+    padding: 10px;
+  }
+  #a{
+    width: auto;
+  }
+  #box7{
+    width: 90%;
+    margin-left: auto;
+    display: flex;
+    height :38%;
+  }
+  .mibox{
+    width: 25% ;
+    height: 99%;
+    border-radius: 10px;
+    margin-right: 40px;
+    background-color: rgba(254, 255, 255, 0.592);
+    box-shadow: 10px 10px 5px rgb(170, 171, 172);
+
+  }
+  #minibox1{
+    margin-left: 38px;
+    margin-top: 18px;
+    width: 80% ;
+    height: 60%;
+    border-radius: 8px;
+
+  }
+  #minibox1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: 100%;
+    overflow: 0%;
+    border-radius: 8px;
+
+  }
+  .absolute11{
+    display: flex;
+    position: absolute;
+  margin-left: 205px;
+  margin-top: -200px;
+  }
+  .absolute11 p{
+    padding-left: 10px;
+    }
+  /* #premium1{
+    position: relative;
+position :fixed right;  } */
+  
+  .mibox > p::first-letter {
+
+      font-size: 200%;
+      color: #000000;
+    }
+  
+  #minibox2{
+    margin-left: 38px;
+    margin-top: 18px;
+    width: 80% ;
+    height: 60%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    border-radius: 10px;
+
+  }
+  #minibox2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: 100%;
+    overflow: 0%;
+    border-radius: 8px;
+
+  }
+  .absolute12{
+    display: flex;
+    position: absolute;
+  margin-left: 180px;
+  }
+  .absolute12 p{
+  padding-left: 10px;
+  }
+  #minibox3{
+    margin-left: 38px;
+    border-radius: 8px;
+    margin-top: 18px;
+
+    width: 80% ;
+    height: 60%;
+  }
+  #minibox3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: 100%;
+    overflow: 0%;
+    background-color: lightgrey;
+    border-radius: 8px;
+
+  }
+  .absolute13{
+    display: flex;
+    position: absolute;
+  margin-left: 220px;
+   margin-top: -200px;
+  }
+  .absolute13 p{
+    padding-left: 10px;
+    }
+  #box8{
+    width: 90%;
+    margin: auto;
+    height: auto;
+    float: left;
+    align-items: center;
+  }
+  .minibox11{
+    margin-top: 20px;
+    width: auto;
+    height: auto;
+    display: flex;
+    padding: 10px;
+  float: left;
+
+  }
+  
+  #m11{
+    margin-left: 150px;
+    width: auto;
+    height: auto;
+    padding: 10px;
+  }
+  div.relative {
+    position: relative;
+    width: 40px;
+    height: 35px;
+    border-radius : 5px;
+    margin-left: 300px;
+    justify-content: center;
+    margin-top: 37px;
+    
+  } 
+  
+  div.absolute {
+    position: absolute;
+    /* left: 10px; */
+    right: 0;
+    width: 40px;
+    height: 35px;  
+      border-radius : 5px;
+      z-index: 1;
+      background-color: #fafbfb;
+    
+  }
+  .absolute img{
+    width: 99%;
+    height: 99%;
+    object-fit: 100%;
+    overflow: 0%;
+    border-radius: 5px;
+
+  }
+  div.absolute1{
+    position: absolute;
+    left: 20px;
+    right: 0;
+    width: 40px;
+    height: 35px;
+      border-radius : 5px;
+      z-index: 2;
+      background-color: #fafbfb;
+
+  }
+  .absolute1 img{
+    width: 99%;
+    height: 99%;
+    object-fit: 100%;
+    overflow: 0%;
+    border-radius: 5px;
+
+  }
+  div.absolute2 {
+    position: absolute;
+    left: 40px;
+    right: 0;
+    width: 40px;
+    height: 35px;
+      border-radius : 5px;
+      z-index: 3;
+      background-color: #fafbfb;
+
+  }
+  .absolute2 img{
+    width: 99%;
+    height: 99%;
+    object-fit: 100%;
+    overflow: 0%;
+    border-radius: 5px;
+
+  }
+  div.absolute3{
+    position: absolute;
+    left: 60px;
+    right: 0;
+    width: 40px;
+    height: 35px;
+      border-radius : 5px;
+      z-index: 4;
+      background-color: #fafbfb;
+
+  }
+  .absolute3 img{
+    width: 99%;
+    height: 99%;
+    object-fit: 100%;
+    overflow: 0%;
+    border-radius: 5px;
+
+  }
+  div.absolute4{
+    position: absolute;
+    left: 80px;
+    right: 0;
+    width: 40px;
+    height: 35px;
+      border-radius : 5px;
+      z-index: 5;
+      background-color: #fafbfb;
+
+  }
+  .absolute4 img{
+    width: 99%;
+    height: 99%;
+    object-fit: 100%;
+    overflow: 0%;
+    border-radius: 5px;
+
+  }
+
+  #m12{
+    margin-top: -40px;
+    width: 10%;
+    height: auto;
+    border:1px solid black ;
+    width: fit-content;
+    margin-left: 29%;
+    border-radius: 5px;
+  
+    
+  }
+  #min12 p{
+    padding-top: 3px;
+    text-align: center;
+    opacity: 0.5;
+    
+  }
+  #m13{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* float: right; */
+    margin-left: 390px;
+    margin-top: -40px;
+
+
+
+  }
+  #m13 p{
+    text-align: center;
+    opacity: 0.5;
+    padding: 5px;
+  }
+  .smallbox{
+    margin:2px;
+    width:15px;
+    height: 15px;
+    border: 1px solid black ;
+     align-items: center; 
+    display: flex;
+    justify-content: center;
+    opacity: 0.5;
+
+    
+
+  }
+  #m14{
+    opacity: 0.5;
+  } 
